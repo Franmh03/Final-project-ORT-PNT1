@@ -1,0 +1,47 @@
+﻿
+
+
+
+<!DOCTYPE html>
+@model List<CineOrt.Models.Pelicula>
+@*En model se guarda el valor del modelo que estamos recibiendo en la linea 6*@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+
+        <table class="table"> 
+            <thead>
+                <tr>
+                    <th> Titulo</th>
+                    <th> Descripcion</th>
+                    <th> Duracion</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                @foreach (var peliculaActual in Model)
+                {   
+                   
+                    <tr>
+                        <td>
+                            @Html.ActionLink(peliculaActual.Titulo, "Pelicula", "Home", new { iDpelicula = peliculaActual.Id }, new {miAtributo = "valor1"})
+                        </td> 
+                        <td>@peliculaActual.Descripcion</td>
+                        <td>@peliculaActual.Duracion minutos</td>
+                    </tr>                    
+                }
+            </tbody>
+
+        
+
+        @*Si sobra tiempo, agrego los horarios en los que esta disponible de forma realista y dinamica. Si no de manera estatica
+        Si queres, podemos integrar alguna imagen a cada pelicula, si bien lo dejo en una tabla, vos modificalo como te guste mas, NO TE MATES, chill
+        *@
+
+    </div>
+</body>
+</html>
