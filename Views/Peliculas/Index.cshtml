@@ -4,42 +4,143 @@
     ViewBag.Title = "Cartelera";
 }
 
-<h2>Cartelera</h2>
+<h2 class="text-center mb-4 mt-5">Cartelera</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Añadir pelicula", "Create", null, new { @class = "btn btn-outline-success mb-3" })
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Titulo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Duracion)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Titulo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descripcion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Duracion)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
-
+<table class="table table-hover text-light">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duracion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.Imagen" alt="Imagen de @item.Titulo" class="img-thumbnail movie-poster" style="max-width: 100px;" />
+                </td>
+                <td class="text-capitalize fw-bold mt-4">
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td class="text-capitalize desc">
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td class="text-success fw-bold">
+                    @Html.DisplayFor(modelItem => item.Duracion)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-primary text-white mb-2" })
+                    @Html.ActionLink("Detalles", "Details", new { id = item.Id }, new { @class = "btn btn-success text-white mb-2" })
+                    @using (Html.BeginForm("Delete", "Peliculas", FormMethod.Post, new { @class = "d-inline" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("id", item.Id)
+                        <button type="submit" class="btn btn-danger text-white mb-2">Eliminar</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+
+<style>
+    body {
+        font-family: Helvetica, sans-serif;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+        color: white !important;
+    }
+
+    .desc {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 300px;
+    }
+
+    .table {
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 15px;
+    }
+
+        .table th {
+            background-color: #343a40;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white !important;
+    }
+
+        .table-hover tbody tr:hover td {
+            color: white;
+        }
+
+    .btn-primary,
+    .btn-success,
+    .btn-danger {
+        margin-right: 0.5rem;
+        width: 75px;
+        padding: 5px;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .img-thumbnail {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+        background-color: transparent !important;
+        border: 1px solid #808080 !important;
+    }
+
+    .movie-poster {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .boton {
+        text-decoration: none !important;
+        text-transform: inherit !important;
+        color: #fff !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #fff !important;
+    }
+
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+        .footer a {
+            color: #fff;
+        }
+</style>

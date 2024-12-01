@@ -10,9 +10,16 @@ namespace CineOrt.Controllers
 {
     public class HomeController : Controller
     {
+
+        private PeliculasRepository _repo;
+        public HomeController()
+        {
+            _repo = new PeliculasRepository();
+        }
         public ActionResult Index()
         {
-            return View();
+            var peliculas = _repo.ObtenerTodos();
+            return View(peliculas);
         }
 
         public ActionResult About()

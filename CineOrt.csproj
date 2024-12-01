@@ -130,8 +130,29 @@
     <Compile Include="Controllers\ComprasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PeliculasController.cs" />
+    <Compile Include="Controllers\SalasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407080037208_UpdateTicketModelToInt.cs" />
+    <Compile Include="Migrations\202407080037208_UpdateTicketModelToInt.Designer.cs">
+      <DependentUpon>202407080037208_UpdateTicketModelToInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407080110079_UpdateTicketIdToIdentity.cs" />
+    <Compile Include="Migrations\202407080110079_UpdateTicketIdToIdentity.Designer.cs">
+      <DependentUpon>202407080110079_UpdateTicketIdToIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407080111175_UpdateTicketIdToIdentity1.cs" />
+    <Compile Include="Migrations\202407080111175_UpdateTicketIdToIdentity1.Designer.cs">
+      <DependentUpon>202407080111175_UpdateTicketIdToIdentity1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407080115341_ConfigureTicketId.cs" />
+    <Compile Include="Migrations\202407080115341_ConfigureTicketId.Designer.cs">
+      <DependentUpon>202407080115341_ConfigureTicketId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407080121426_ConfigureTicketId2.cs" />
+    <Compile Include="Migrations\202407080121426_ConfigureTicketId2.Designer.cs">
+      <DependentUpon>202407080121426_ConfigureTicketId2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Asiento.cs" />
@@ -203,9 +224,14 @@
     <Content Include="Views\Home\Pelicula.cshtml" />
     <Content Include="Views\Peliculas\Index.cshtml" />
     <Content Include="Views\Peliculas\Create.cshtml" />
+    <Content Include="Views\Peliculas\Edit.cshtml" />
+    <Content Include="Views\Peliculas\Details.cshtml" />
+    <Content Include="Views\Salas\Details.cshtml" />
+    <Content Include="Views\Salas\DetallesTicket.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Compras\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -233,6 +259,23 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202407080037208_UpdateTicketModelToInt.resx">
+      <DependentUpon>202407080037208_UpdateTicketModelToInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407080110079_UpdateTicketIdToIdentity.resx">
+      <DependentUpon>202407080110079_UpdateTicketIdToIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407080111175_UpdateTicketIdToIdentity1.resx">
+      <DependentUpon>202407080111175_UpdateTicketIdToIdentity1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407080115341_ConfigureTicketId.resx">
+      <DependentUpon>202407080115341_ConfigureTicketId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407080121426_ConfigureTicketId2.resx">
+      <DependentUpon>202407080121426_ConfigureTicketId2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,9 +1,6 @@
 ﻿using CineOrt.Models;
 using CineOrt.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace CineOrt.Controllers
@@ -27,7 +24,12 @@ namespace CineOrt.Controllers
         // GET: Peliculas/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            var pelicula = _repo.GetPelicula(id); 
+            if (pelicula == null)
+            {
+                return HttpNotFound();
+            }
+            return View(pelicula);
         }
 
         // GET: Peliculas/Create
@@ -40,18 +42,10 @@ namespace CineOrt.Controllers
         [HttpPost]
         public ActionResult Create(Pelicula model)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid) {
-                    _repo.Create(model);
-                    return RedirectToAction("Index");
-                }
-
-                
-            }
-            catch (Exception ex)
-            {
-                //Log
+                _repo.Create(model);
+                return RedirectToAction("Index");
             }
 
             return View(model);
@@ -60,45 +54,75 @@ namespace CineOrt.Controllers
         // GET: Peliculas/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var pelicula = _repo.GetPelicula(id);
+            if (pelicula == null)
+            {
+                return HttpNotFound();
+            }
+            return View(pelicula);
         }
 
         // POST: Peliculas/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Id,Titulo,Descripcion,Duracion,Imagen")] Pelicula pelicula)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
+                try
+                {
+                    _repo.Update(pelicula);
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    // Log the error (uncomment the line below once you have a logging mechanism)
+                    // Log.Error(ex);
+                    ModelState.AddModelError("", "No se pudo guardar los cambios. Inténtalo de nuevo, y si el problema persiste, consulta con el administrador del sistema.");
+                }
             }
-            catch
-            {
-                return View();
-            }
+            return View(pelicula);
         }
+
+
 
         // GET: Peliculas/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var pelicula = _repo.GetPelicula(id);
+            if (pelicula == null)
+            {
+                return HttpNotFound();
+            }
+            return View(pelicula);
         }
 
         // POST: Peliculas/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
         {
             try
             {
-                // TODO: Add delete logic here
-
+                _repo.Eliminar(id);
                 return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+                return RedirectToAction("Index", new { error = true });
             }
+        }
+        // Nueva acción para actualizar las películas existentes
+        public ActionResult ActualizarPeliculasExistentes()
+        {
+            _repo.ActualizarPeliculasExistentes();
+            return RedirectToAction("Index");
+        }
+        public ActionResult EliminarTodasLasSalas()
+        {
+            _repo.EliminarTodasLasSalas();
+            return RedirectToAction("Index"); // Redirige a la lista de películas después de eliminar todas las salas
         }
     }
 }

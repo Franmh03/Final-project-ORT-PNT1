@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Web;
+﻿using System.Data.Entity;
+
 
 namespace CineOrt.Models
 {
     public class PeliculaContext: DbContext
     {
         public DbSet<Pelicula> Peliculas { get; set; }
+        public DbSet<Sala> Salas { get; set; }
+        public DbSet<Asiento> Asientos { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
         public PeliculaContext()
             :base("DefaultConnection"){}
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }

@@ -1,0 +1,68 @@
+﻿@model CineOrt.Models.Ticket
+
+<div class="container mt-5">
+    <div class="card bg-dark text-white">
+        <div class="card-header bg-success text-white text-center">
+            <h2 class="text-dark fw-bold mt-2">Ticket de Compra</h2>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title mb-0"><strong>Numero Ticket:</strong> @Model.TicketId</h5>
+            <p class="card-text mt-2">
+                <strong>Película:</strong> @Model.Pelicula
+            </p>
+            <p class="card-text">
+                <strong>Asiento:</strong> Fila @Model.AsientoFila - Columna @Model.AsientoColumna
+            <p class="card-text">
+                <strong>DNI:</strong> @Model.DniPersona
+            </p>
+            <p class="card-text">
+                <strong>Nombre:</strong> @Model.NombreCompletoPersona
+            </p>
+        </div>
+        <div class="card-footer text-center">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-light">Volver al Inicio</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: Helvetica, sans-serif;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Images/Cine1.jpg');
+        background-size: cover;
+        background-position: center;
+        text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    .card{
+        width: 400px;
+    }
+    .card-header {
+        background: linear-gradient(90deg, rgba(29,185,84,1) 0%, rgba(14,135,54,1) 100%);
+    }
+
+    .card-body {
+        background-color: #333;
+        color: white;
+    }
+
+    .card-footer {
+        background-color: #444;
+    }
+
+    .card-title, .card-text {
+        text-align: center;
+    }
+
+    .btn-outline-light {
+        border-color: white;
+        color: white;
+    }
+
+        .btn-outline-light:hover {
+            background-color: white;
+            color: black;
+        }
+</style>
+

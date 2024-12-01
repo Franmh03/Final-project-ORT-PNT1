@@ -1,0 +1,259 @@
+﻿@model CineOrt.Models.Sala
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de la Sala @Model.NumSala</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <div class="card bg-dark text-white">
+            <div class="card-header bg-warning text-white text-center">
+                <h2 class="text-dark fw-bold mt-2">Detalles de la Sala @Model.NumSala</h2>
+            </div>
+            <div class="card-body sala-detalles">
+                <h5 class="card-title mb-0"><strong>Número de Sala:</strong> @Model.NumSala</h5>
+                @if (!Model.EstaLlena)
+                {
+                    using (Html.BeginForm("LlenarSala", "Salas", FormMethod.Post, new { @class = "d-inline" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("numSala", Model.NumSala)
+                        @Html.Hidden("peliculaId", Model.PeliculaId)
+                        <button type="submit" class="btn btn-outline-danger mt-2 mb-2">Llenar Sala</button>
+                    }
+
+                }
+                <p class="card-text">
+                    <strong>Estado:</strong>
+
+                    <span class="badge @(Model.EstaLlena ? "badge-danger" : "badge-success")">
+                        @(Model.EstaLlena ? "Llena" : "Disponible")
+                    </span>
+                </p>
+                <h5 class="card-title mt-4">Asientos @Model.ListaAsientos.Count(a => a.EstaDisponible) / 200</h5>
+                <div class="cine-container">
+                    <div class="pantalla">Pantalla</div>
+                    @for (int i = 0; i < 8; i++)
+                    {
+                        <div class="asiento-row">
+                            @for (int j = 0; j < 25; j++)
+                            {
+                                var asiento = Model.ListaAsientos.FirstOrDefault(a => a.Fila == i && a.Columna == j);
+                                if (asiento != null)
+                                {
+                                    <button type="button" class="asiento-button @(asiento.EstaDisponible ? "disponible" : "ocupado")"
+                                            data-asiento-id="@asiento.Id"
+                                            data-num-fila="@i" data-num-columna="@j"
+                                            onclick="seleccionarAsiento(this)"
+                                            @(asiento.EstaDisponible ? "" : "disabled")>
+                                        @(i + 1)-@(j + 1)
+                                    </button>
+                                }
+                            }
+                        </div>
+
+                    }
+                    @using (Html.BeginForm("TomarAsiento", "Salas", FormMethod.Post, new { id = "formConfirmarAsiento", style = "display:none;" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("numSala", Model.NumSala)
+                        @Html.Hidden("numAsiento", "", new { id = "numAsiento" })
+                        @Html.Hidden("peliculaId", Model.PeliculaId)
+                        @Html.Hidden("nombre", "", new { id = "formNombre" })
+                        @Html.Hidden("apellido", "", new { id = "formApellido" })
+                        @Html.Hidden("dni", "", new { id = "formDni" })
+                        <button type="button" class="btn btn-outline-success mt-2 mb-2" onclick="showModal()">Confirmar Selección</button>
+                    }
+                </div>
+                <a id="btnElegirAsiento" href="#" class="btn btn-succes mt-4" style="display:none" onclick="elegirAsiento()">Selccionar asiento</a>
+
+                <a href="@Url.Action("Details", "Peliculas", new { id = Model.PeliculaId })" class="btn btn-outline-warning mt-4">Volver a la Película</a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="userInfoModal" tabindex="-1" aria-labelledby="userInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="userInfoModalLabel">Ingrese sus datos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        @Html.Label("Nombre")
+                        @Html.TextBox("modalNombre", null, new { @class = "form-control", id = "modalNombre" })
+                    </div>
+                    <div class="form-group">
+                        @Html.Label("Apellido")
+                        @Html.TextBox("modalApellido", null, new { @class = "form-control", id = "modalApellido" })
+                    </div>
+                    <div class="form-group">
+                        @Html.Label("DNI")
+                        @Html.TextBox("modalDni", null, new { @class = "form-control", id = "modalDni" })
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="submitForm()">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        let asientoSeleccionado = null;
+
+        function seleccionarAsiento(button) {
+            if (asientoSeleccionado) {
+                asientoSeleccionado.classList.remove('asiento-seleccionado');
+            }
+
+            asientoSeleccionado = button;
+            button.classList.add('asiento-seleccionado');
+
+            document.getElementById('numAsiento').value = button.getAttribute('data-asiento-id');
+            document.getElementById('formConfirmarAsiento').style.display = 'block';
+        }
+
+        function showModal() {
+            var modal = new bootstrap.Modal(document.getElementById('userInfoModal'), {});
+            modal.show();
+        }
+
+        function submitForm() {
+            // Obtener los valores de los campos del modal
+            var nombre = document.getElementById('modalNombre').value;
+            var apellido = document.getElementById('modalApellido').value;
+            var dni = document.getElementById('modalDni').value;
+
+            // Agregar los valores al formulario
+            document.getElementById('formNombre').value = nombre;
+            document.getElementById('formApellido').value = apellido;
+            document.getElementById('formDni').value = dni;
+
+            // Comprobar los valores con una alerta
+            alert("DNI: " + dni + ", Nombre Completo: " + nombre + " " + apellido);
+
+            // Enviar el formulario
+            document.getElementById('formConfirmarAsiento').submit();
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const myModal = document.getElementById('userInfoModal');
+            const myInput = document.getElementById('modalNombre');
+
+            myModal.addEventListener('shown.bs.modal', () => {
+                myInput.focus();
+            });
+
+            // Añadir evento click al botón que abre el modal
+            document.getElementById('openModalButton').addEventListener('click', showModal);
+        });
+    </script>
+    <style>
+        body {
+            background-color: #292729;
+            background-image: linear-gradient(0deg, #292729 0%, #490e1f 100%);
+            font-family: Helvetica, sans-serif
+        }
+
+        .cine-container {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            border: 2px solid #3133;
+            padding: 30px;
+            border-radius: 5px;
+            white-space: nowrap;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .asiento-row {
+            display: flex;
+            justify-content: center;
+        }
+        .asiento-seleccionado{
+            background-color: orange !important;
+            box-shadow: 0 0 0 1px white;
+            transform: scale(1.1);
+        }
+        .asiento-button {
+            width: 40px;
+            height: 40px;
+            margin: 3px;
+            border-radius: 5px;
+            border: none;
+            font-size: 12px;
+            color: white;
+            cursor: pointer;
+        }
+
+            .asiento-button.ocupado {
+                background-color: red;
+                cursor: not-allowed;
+            }
+
+            .asiento-button.disponible {
+                background-color: green;
+            }
+
+                .asiento-button.disponible:hover {
+                    transform: scale(1.1);
+                    background-color: limegreen;
+                }
+
+            .asiento-button:disabled {
+                background-color: darkred;
+            }
+
+        .pantalla {
+            background-color: silver;
+            width: 80%;
+            height: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 2px;
+            color: black;
+            max-width: 800px;
+            font-weight: bolder;
+            font-family: Helvetica, sans-serif
+        }
+
+        .card-title {
+            text-align: center;
+        }
+
+        .card {
+            max-width: 100%; /* Limita el ancho máximo de la tarjeta */
+        }
+
+        .modal-content {
+            background: #333;
+            color: white;
+            font-family: Helvetica, sans-serif;
+        }
+        .modal-content input{
+            background: grey;
+        }
+    </style>
+
+
+</body>
+</html>

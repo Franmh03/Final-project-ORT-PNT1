@@ -1,0 +1,133 @@
+﻿@model CineOrt.Models.Pelicula
+
+@{
+    ViewBag.Title = Model.Titulo;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-dark text-white">
+            <h2 class="mb-0">@Model.Titulo</h2>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-2 font-weight-bold">Título:</div>
+                <div class="col-md-10">@Html.DisplayFor(model => model.Titulo)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 font-weight-bold">Descripción:</div>
+                <div class="col-md-10">@Html.DisplayFor(model => model.Descripcion)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 font-weight-bold">Duración:</div>
+                <div class="col-md-10">@Html.DisplayFor(model => model.Duracion) minutos</div>
+            </div>
+            <h5 class="card-title mt-4">Salas</h5>
+            <ul class="list-group list-group-flush salas">
+                @foreach (var sala in Model.Salas)
+                {
+                    var estaLlena = sala.ListaAsientos != null && sala.ListaAsientos.All(a => !a.EstaDisponible);
+                    <li class="list-group-item @(sala.EstaLlena ? "list-group-item-danger" : "list-group-item-success")">
+                        <a href="@Url.Action("Details", "Salas", new { peliculaId = sala.PeliculaId,numSala = sala.NumSala })" class="stretched-link text-dark">
+                            Sala @sala.NumSala - @(sala.EstaLlena ? "Llena" : "Disponible")
+                        </a>
+                    </li>
+                }
+            </ul>
+            <div class="row mb-3">
+
+                <div class="img-container">
+                    <img src="@Model.Imagen" alt="Imagen de @Model.Titulo" class="img-fluid" />
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            @Html.ActionLink("Volver a cartelera", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Helvetica, sans-serif;
+        background: #333333; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #d01818, #333333); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #d01818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+     .salas li a{
+        text-decoration: none;
+    }
+    .salas{
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-top: 50px;
+        max-width: 800px;
+        
+        
+    }
+
+    .card-header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background: linear-gradient(45deg, #343a40, #6c757d);
+        background-color: transparent;
+        color: white;
+    }
+
+    .card-body {
+        background-color: transparent;
+        padding: 20px;
+        background: #C9D6FF; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .card-footer {
+        background-color: #f8f9fa;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: transparent;
+    }
+
+    .font-weight-bold {
+        color: #343a40;
+        font-size: 1.1rem;
+    }
+
+    .img-container {
+        text-align: center;
+        overflow: hidden;
+        border-bottom: 1px solid #ddd; /* Separador entre la imagen y el contenido */
+    }
+
+        .img-container img {
+            max-height: 400px; /* Ajusta según tus necesidades */
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Asegura que la imagen cubra el área del contenedor sin deformarse */
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+</style>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

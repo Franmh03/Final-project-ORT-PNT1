@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\",
+  "WorkspaceRootPath": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|c:\\users\\franh\\desktop\\coding\\nuevas tecnologias 1\\repos\\cineort\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\peliculacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\peliculacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\peliculacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|c:\\users\\franh\\desktop\\coding\\repositorios\\pnt1 tp final cine ort\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\services\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\services\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:services\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\home\\cartelera.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\home\\cartelera.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\home\\cartelera.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\home\\pelicula.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\home\\pelicula.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\home\\pelicula.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\models\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\models\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:models\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{501CFA58-6E29-4568-A2F8-2CA7197CC745}|CineOrt.csproj|solutionrelative:stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -100,9 +100,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Asiento.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Asiento.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Asiento.cs",
               "RelativeDocumentMoniker": "Models\\Asiento.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Asiento.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Asiento.cs",
               "RelativeToolTip": "Models\\Asiento.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,23 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PeliculasController.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Controllers\\PeliculasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PeliculasController.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Controllers\\PeliculasController.cs",
-              "RelativeToolTip": "Controllers\\PeliculasController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T01:52:54.987Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PeliculasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Services\\PeliculasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Services\\PeliculasRepository.cs",
               "RelativeDocumentMoniker": "Services\\PeliculasRepository.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Services\\PeliculasRepository.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Services\\PeliculasRepository.cs",
               "RelativeToolTip": "Services\\PeliculasRepository.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAMwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -137,9 +125,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAMwBcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Peliculas\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Peliculas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Peliculas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Peliculas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Peliculas\\Index.cshtml",
               "RelativeToolTip": "Views\\Peliculas\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -161,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Peliculas\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Peliculas\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Peliculas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Peliculas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Peliculas\\Create.cshtml",
               "RelativeToolTip": "Views\\Peliculas\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -171,36 +159,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T23:20:37.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PeliculaContext.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\PeliculaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\PeliculaContext.cs",
               "RelativeDocumentMoniker": "Models\\PeliculaContext.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\PeliculaContext.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\PeliculaContext.cs",
               "RelativeToolTip": "Models\\PeliculaContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:01:06.382Z"
+              "WhenOpened": "2024-07-03T03:01:06.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PeliculasController.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "Controllers\\PeliculasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:52:54.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,9 +212,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Ticket.cs",
               "RelativeToolTip": "Models\\Ticket.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,9 +224,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Cartelera.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Cartelera.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Cartelera.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Cartelera.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Cartelera.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Cartelera.cshtml",
               "RelativeToolTip": "Views\\Home\\Cartelera.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAADwvx4AAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -234,9 +236,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Migrations\\Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Migrations\\Configuration.cs",
               "RelativeToolTip": "Migrations\\Configuration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,9 +248,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Web.config",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Web.config",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Web.config",
               "RelativeToolTip": "Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAChAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -259,9 +261,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -271,9 +273,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Pelicula.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Pelicula.cs",
               "RelativeDocumentMoniker": "Models\\Pelicula.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Pelicula.cs",
               "RelativeToolTip": "Models\\Pelicula.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,9 +285,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Sala.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Sala.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Sala.cs",
               "RelativeDocumentMoniker": "Models\\Sala.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Sala.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Sala.cs",
               "RelativeToolTip": "Models\\Sala.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,9 +297,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Pelicula.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Pelicula.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Pelicula.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Pelicula.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Home\\Pelicula.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Home\\Pelicula.cshtml",
               "RelativeToolTip": "Views\\Home\\Pelicula.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -307,9 +309,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Cine.cs",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Cine.cs",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Cine.cs",
               "RelativeDocumentMoniker": "Models\\Cine.cs",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Models\\Cine.cs",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Models\\Cine.cs",
               "RelativeToolTip": "Models\\Cine.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,9 +321,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -331,9 +333,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Styles.css",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Styles\\Styles.css",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Styles\\Styles.css",
               "RelativeDocumentMoniker": "Styles\\Styles.css",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\Styles\\Styles.css",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\Styles\\Styles.css",
               "RelativeToolTip": "Styles\\Styles.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -343,9 +345,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "StyleSheet.css",
-              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\StyleSheet.css",
               "RelativeDocumentMoniker": "StyleSheet.css",
-              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Nuevas tecnologias 1\\repos\\CineOrt\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\Franh\\Desktop\\Coding\\Repositorios\\PNT1 Tp final Cine Ort\\StyleSheet.css",
               "RelativeToolTip": "StyleSheet.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
